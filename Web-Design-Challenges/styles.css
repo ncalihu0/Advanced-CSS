@@ -1,0 +1,21 @@
+
+ .image {
+    width: 100vw;
+    height: 100vh;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    height: 70vh;
+    width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        height: 45vh;
+        width: auto;
+    }
+}

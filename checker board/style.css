@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+table {
+    border: solid rgb(66, 38, 38) 5px;
+    width: 800px;
+    height: 800px;
+    overflow: auto;
+}
+
+.black {
+    height: 100px;
+    width: 100px;
+
+    background: black;
+}
+
+.white {
+    height: 100px;
+    width: 100px;
+
+    background: white;
+}
+
+@media only screen and (max-width: 875px) {
+    table {
+        height: 400px;
+        width: 400px;
+    }
+
+    .black,
+    .white {
+        height: 50px;
+        width: 50px;
+    }
+}

@@ -1,0 +1,25 @@
+body,
+html,
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo {
+    position: absolute;
+}
+
+img {
+    height: 350px;
+    width: 500px;
+}
+
+table {
+    width: 75vw;
+    height: 75vh;
+
+}
+
+.red {
+    background: red;
+}

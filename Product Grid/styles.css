@@ -1,0 +1,60 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    height: 75px;
+    width: 75px;
+    padding: 15px 0;
+}
+
+main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    max-width: 75vw;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-items: center;
+    align-items: center;
+    grid-gap: 30px;
+
+}
+
+.product1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    border: 5px solid rgb(222, 219, 219);
+    height: 55vh;
+    border-radius: 20px;
+    max-width: 275px;
+}
+
+.product1:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+}
