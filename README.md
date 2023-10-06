@@ -1,1 +1,1 @@
-# My Guided Inquiry challenged
+# My Guided Inquiry challenge
