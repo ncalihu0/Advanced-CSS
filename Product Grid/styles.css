@@ -31,7 +31,7 @@ main {
 
 }
 
-.product1 {
+.product {
     display: grid;
     justify-content: center;
     align-items: center;
